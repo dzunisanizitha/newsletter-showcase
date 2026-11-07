@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Newsletter | Editorial Showcase</title>
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #17191d;
+  color: #f4f0e9;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 28px 16px 14px;
+}
+
+.eyebrow {
+  color: #b9aa91;
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 12px 0 7px;
+  font: normal clamp(25px, 4vw, 38px) Georgia, serif;
+}
+
+.subtitle {
+  margin: 0;
+  color: #bcbcbc;
+  font-size: 13px;
+}
+
+main {
+  width: min(1200px, 96%);
+  margin: 0 auto;
+  padding: 14px 0 28px;
+}
+
+#book {
+  width: 100%;
+  height: min(76vh, 820px);
+  min-height: 460px;
+}
+
+footer {
+  text-align: center;
+  padding: 0 16px 25px;
+  color: #929292;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="eyebrow">Selected Publication</div>
+  <h1>newsletter-showcase</h1>
+  <p class="subtitle">Editorial Design · Publication Design</p>
+</header>
+
+<main>
+  <div
+    id="book"
+    data-pdflipbook="newsletter.pdf"
+    data-display-mode="auto"
+    data-shadow="always">
+  </div>
+</main>
+
+<footer>
+  DESIGNED IN ADOBE INDESIGN
+</footer>
+
+<script src="pdflipbook.js"></script>
+
+</body>
+</html>
